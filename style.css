@@ -1,0 +1,96 @@
+
+#menu {
+    border: thin solid black;
+    position: sticky;
+}
+
+.item {
+    float: left;
+    border: thin solid black;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+}
+  
+#menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.subitem {
+    border: thin solid black;
+    color: black;
+    font-size: 1em;
+}
+  
+.submenu { 
+    display: none;
+}
+  
+.item:hover .submenu {
+    display: block;
+    position: absolute;
+    width: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr, 1fr);
+    gap: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    border: 0.1em solid black;
+}
+
+.box {
+    display: grid;
+    border: 0.1em solid black;
+    text-align: justify;
+    border-radius: 1rem;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.box1 {
+    display: grid;
+    border: 0.1em solid black;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: justify;
+    border-top-left-radius: 2%;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+.contenedor2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    gap: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    border: 0.1em solid yellow;
+}
+
+.box2 {
+    display: grid;
+    border: 0.1em solid black;
+    text-align: justify;
+    border-radius: 1rem;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
