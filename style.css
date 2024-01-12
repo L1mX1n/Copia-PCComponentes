@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 
 #menu {
     border: thin solid black;
+    background-color: white;
     position: sticky;
+
 }
 
 .item {
@@ -37,13 +43,16 @@
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr, 1fr);
-    gap: 0px;
+    gap: 1px;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    position: absolute;
+    position: relative;
     border: 0.1em solid black;
+    width: 1560px;
+    height: 800px;
+    margin: auto;
 }
 
 .box {
@@ -81,16 +90,84 @@
     right: 0;
     top: 0;
     bottom: 0;
-    position: absolute;
-    border: 0.1em solid yellow;
+    position: relative;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    width: 1545px;
+    height: 200px;
+    margin: auto;
 }
 
 .box2 {
     display: grid;
-    border: 0.1em solid black;
+    border: 0em solid black;
     text-align: justify;
     border-radius: 1rem;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: auto;
+}
+
+.contenedor3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    border: 0.1em solid black;
+    padding: 0.5em;
+    width: 1550px;
+    height: 150px;
+    margin: auto;
+    justify-content: center;
+}
+
+.items3 {
+    display: grid;
+    border: 0.1em solid black;
+    border-radius: 1rem;
+    width: 270px;
+    height: 100px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;
+}
+
+.fotoslogo {
+    display: grid;
+    border: 0.1em solid black;
+    border-radius: 1rem;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;    
+}
+
+.fondo  {
+    display: grid;
+    height: 60px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;
+    padding: 0.5em;    
+}
+
+.fondo-text {
+    display: grid;
+    height: 40px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 0.6em;
+    font-family: Arial, Helvetica, sans-serif;
 }
