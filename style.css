@@ -49,7 +49,7 @@
     top: 0;
     bottom: 0;
     position: relative;
-    border: 0.1em solid black;
+    border: 0em solid black;
     width: 1560px;
     height: 800px;
     margin: auto;
@@ -57,7 +57,7 @@
 
 .box {
     display: grid;
-    border: 0.1em solid black;
+    border: 0em solid black;
     text-align: justify;
     border-radius: 1rem;
     width: 250px;
@@ -67,7 +67,7 @@
 
 .box1 {
     display: grid;
-    border: 0.1em solid black;
+    border: 0em solid black;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
@@ -91,7 +91,7 @@
     top: 0;
     bottom: 0;
     position: relative;
-    border: 0.1em solid black;
+    border: 0em solid black;
     padding: 0.5em;
     width: 1545px;
     height: 200px;
@@ -109,6 +109,7 @@
 }
 
 .contenedor3 {
+    background-color: #f2f2f2;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-column-start: 1;
@@ -120,9 +121,9 @@
     top: 0;
     bottom: 0;
     position: relative;
-    border: 0.1em solid black;
+    border: 0em solid black;
     padding: 0.5em;
-    width: 1550px;
+    width: 1650px;
     height: 150px;
     margin: auto;
     justify-content: center;
@@ -130,7 +131,7 @@
 
 .items3 {
     display: grid;
-    border: 0.1em solid black;
+    border: 0em solid black;
     border-radius: 1rem;
     width: 270px;
     height: 100px;
@@ -142,7 +143,7 @@
 
 .fotoslogo {
     display: grid;
-    border: 0.1em solid black;
+    border: 0em solid black;
     border-radius: 1rem;
     width: 60px;
     height: 60px;
@@ -169,5 +170,143 @@
     justify-content: center;
     align-content: center;
     font-size: 0.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor4 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    border: 0em solid black;
+    padding: 0.5em;
+    width: 1550px;
+    height: 200px;
+    margin: auto;
+    justify-content: center;
+}
+
+.fotoslogo2 {
+    display: grid;
+    border: 0em solid black;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.3em;    
+}
+
+.container-fondo {
+    display: grid;
+    border: 0em solid black;
+    height: 270px;
+    width: 1550px;
+    margin: auto;
+    justify-content: left;
+    align-content: center;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+.container-compromiso {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    border: 0em solid black;
+    padding: 1em;
+    width: 1650px;
+    height: 450px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    justify-items: center;
+    font-size: 0.9em;
+}
+
+.imagenes-compromiso {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 1rem;
+    border: 0em solid black;
+}
+
+.titulo-h2-compromiso {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 0em solid black;
+    width: 1600px;
+    height: 50px;
+    justify-items: left;
+    padding-left: 0.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-descubrir {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    border: 0em solid black;
+    padding: 1em;
+    width: 1650px;
+    height: 500px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    justify-items: center;
+    font-size: 0.9em;
+}
+
+.imagenes-descubrir {
+    display: grid;
+    width: 370px;
+    height: 200px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 1rem;
+    border: 0em solid black;
+}
+
+.titulo-h2-descubrir {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 0em solid black;
+    width: 1600px;
+    height: 50px;
+    justify-items: left;
+    padding-left: 0.4em;
     font-family: Arial, Helvetica, sans-serif;
 }
