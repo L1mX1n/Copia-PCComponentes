@@ -1,43 +1,54 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 
-#menu {
-    border: thin solid black;
+.margen {
+    width: auto;
+    border-bottom: solid 1px black;
     background-color: white;
     position: sticky;
-
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
 }
 
-.item {
-    float: left;
-    border: thin solid black;
-    background-color: black;
-    color: white;
-    font-size: 1.5em;
+.inicio-logo {
+    width: 130px;
+    position: relative;
+    top: 10px;
+    bottom: 0;
+    left: 140px;
+    right: 1;
 }
-  
-#menu:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.cabezera {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1rem;
+    width: 400px;
+    padding: 1em;
+    margin: auto;
+    margin-right: 100px;
+    justify-content: center;
+    justify-items: center;
+    border: 0em solid black;
+    position: relative;
+    top: -40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.1em;
 }
-  
-.subitem {
-    border: thin solid black;
-    color: black;
-    font-size: 1em;
-}
-  
-.submenu { 
-    display: none;
-}
-  
-.item:hover .submenu {
-    display: block;
-    position: absolute;
-    width: auto;
+
+.cabezera-items {
+    justify-self: center;
+
 }
 
 .container {
@@ -51,7 +62,7 @@
     position: relative;
     border: 0em solid black;
     width: 1560px;
-    height: 800px;
+    height: 650px;
     margin: auto;
 }
 
@@ -96,6 +107,10 @@
     width: 1545px;
     height: 200px;
     margin: auto;
+    justify-content: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
 }
 
 .box2 {
@@ -103,9 +118,56 @@
     border: 0em solid black;
     text-align: justify;
     border-radius: 1rem;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: auto;
+}
+
+.container-tendencia {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+    border: 0em solid black;
+    padding: 1em;
+    width: 1650px;
+    height: 360px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    justify-items: center;
+    font-size: 0.9em;
+}
+
+.imagenes-tendencia {
+    display: grid;
+    width: 210px;
+    height: 210px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 1rem;
+    border: 0em solid black;
+}
+
+.titulo-h2-tendencia {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 0em solid black;
+    width: 1600px;
+    height: 50px;
+    justify-items: left;
+    padding-left: 0.3em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenedor3 {
@@ -138,7 +200,8 @@
     margin: auto;
     justify-content: center;
     align-content: center;
-    font-size: 1.3em;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .fotoslogo {
@@ -160,7 +223,8 @@
     justify-content: center;
     align-content: center;
     font-size: 1.3em;
-    padding: 0.5em;    
+    padding: 0.5em;
+    border-top: 0.1px solid gray;    
 }
 
 .fondo-text {
@@ -176,10 +240,6 @@
 .contenedor4 {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 1;
     left: 0;
     right: 0;
     top: 0;
@@ -187,27 +247,25 @@
     position: relative;
     border: 0em solid black;
     padding: 0.5em;
-    width: 1550px;
-    height: 200px;
     margin: auto;
     justify-content: center;
+    width: 1519px;
 }
 
 .fotoslogo2 {
-    display: grid;
     border: 0em solid black;
     width: 150px;
-    height: 150px;
     margin: auto;
-    justify-content: center;
-    align-content: center;
-    font-size: 1.3em;    
+}
+
+.fotoslogo2 img {
+    width: 1px;
 }
 
 .container-fondo {
     display: grid;
     border: 0em solid black;
-    height: 270px;
+    height: 340px;
     width: 1550px;
     margin: auto;
     justify-content: left;
@@ -288,7 +346,6 @@
 }
 
 .imagenes-descubrir {
-    display: grid;
     width: 370px;
     height: 200px;
     justify-content: center;
