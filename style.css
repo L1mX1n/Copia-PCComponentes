@@ -6,7 +6,6 @@
 
 .margen {
     width: auto;
-    border-bottom: solid 1px black;
     background-color: white;
     position: sticky;
     top: 0;
@@ -16,6 +15,42 @@
     z-index: 999;
     font-family: Arial, Helvetica, sans-serif;
     height: 70px;
+}
+
+.categorias {
+    display: grid;
+    background-color: white;
+    height: 45px;
+    justify-content: left;
+    justify-items: center;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
+    position: relative;
+    top: -35px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding-left: 0.5em;
+    width: auto;
+}
+
+.categoria-texto {
+    display: grid;
+    background-color: white;
+    height: 40px;
+    margin: auto;
+    margin-right: 100px;
+    border: 0em solid black;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+    font-size: 1.1em;
+    align-items: center;
+    font-size: 0.9em;
+    padding-left: 0.5em;
 }
 
 .inicio-logo {
@@ -49,6 +84,16 @@
 .cabezera-items {
     justify-self: center;
 
+}
+
+.experto {
+    display: grid;
+    font-size: 0.9em;
+    width: 1580px;
+    border: 0px solid black;
+    margin: auto;
+    padding-top: 5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -223,7 +268,7 @@
     justify-content: center;
     align-content: center;
     font-size: 1.3em;
-    padding: 0.5em;
+    padding: 1em;
     border-top: 0.1px solid gray;    
 }
 
